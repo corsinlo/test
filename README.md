@@ -19,9 +19,9 @@ Set up your environment variables:
 Create a .env file in the root of the certilogo-backend directory. You can use .env.example as a template.
 Default port is 1337.
 
-# .env
-HOST=0.0.0.0
-PORT=1337
+###### .env
+###### HOST=0.0.0.0
+###### PORT=1337
 
 Start the Strapi server:
 
@@ -40,8 +40,8 @@ Set up your environment variables:
 
 Create a .env.local file in the root of the certilogo-frontend directory. You can use .env.example as a template.
 Default port is 1337.
-# .env.local
-REACT_APP_STRAPI_URL=http://localhost:1337
+###### .env.local
+###### REACT_APP_STRAPI_URL=http://localhost:1337
 Start the React application:
 
 ### `npm start`
