@@ -5,7 +5,6 @@ certilogo-frontend/.DS_Store
 
 certilogo-backend/node_modules
 certilogo-backend/.env
-certilogo-backend/build
 certilogo-backend/.cache
 certilogo-backend/public/uploads
 certilogo-backend/.DS_Store
