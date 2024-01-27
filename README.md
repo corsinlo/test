@@ -16,20 +16,25 @@ Navigate to the backend directory:
 ### `cd certilogo-backend`
 ### `npm install`
 
-###### (for a differente port Create a .env file in the root of the certilogo-backend directory. You can use .env.example as a template.
-###### Default port is 1337.)
-###### .env
-###### HOST=0.0.0.0
-###### PORT=1337
+(for a differente port Create a .env file in the root of the certilogo-backend directory. You can use .env.example as a template.
+ Default port is 1337.)
+
+```
+.env
+HOST=0.0.0.0
+ PORT=1337
+```
 
 Start the Strapi server:
 
 ### `npm run develop`
 The Strapi admin panel will be available at http://localhost:1337/admin.
 Access http://localhost:1337/admin and insert the test user credentials:
+
+```
 Email: test@mail.com
 Password: Test2024
-
+```
 ### Frontend Setup (certilogo-frontend)
 On a separated Terminal, Navigate to the frontend directory (from the project root):
 
@@ -41,13 +46,16 @@ Install the necessary dependencies:
 Set up your environment variables:
 
 Create a .env file in the root of the certilogo-frontend directory. You can use .env.example as a template.
-Default port is 1337.
-###### .env
-###### REACT_APP_STRAPI_URL=http://localhost:1337
+set it up in the following way 1337.
+
+```
+REACT_APP_STRAPI_URL=http://localhost:1337
+```
 Start the React application:
 
 ### `npm run start`
 The application will be available at http://localhost:3000.
 
 Usage
-After starting both the backend and frontend, navigate to http://localhost:3000 in your browser to use the application.
+After starting both the backend and frontend, navigate to http://localhost:3000 in your browser to use the application,
+**Added some quick render testing
