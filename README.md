@@ -1,5 +1,5 @@
 #  Certilogo Project
-This project includes both a React frontend (certilogo-frontend) and a Strapi backend (certilogo-backend). Follow these instructions to set up and run both parts of the project.
+This project includes both a React frontend (certilogo-frontend) and a Strapi backend (certilogo-backend). Follow these instructions to set up and run both parts of the project locally.
 
 ## Prerequisites
 Node.js (version 12 or higher)
@@ -15,10 +15,9 @@ First, clone the repository to your local machine:
 Navigate to the backend directory:
 ### `cd certilogo-backend`
 ### `npm install`
-Set up your environment variables:
-Create a .env file in the root of the certilogo-backend directory. You can use .env.example as a template.
-Default port is 1337.
 
+###### (for a differente port Create a .env file in the root of the certilogo-backend directory. You can use .env.example as a template.
+###### Default port is 1337.)
 ###### .env
 ###### HOST=0.0.0.0
 ###### PORT=1337
@@ -27,9 +26,12 @@ Start the Strapi server:
 
 ### `npm run develop`
 The Strapi admin panel will be available at http://localhost:1337/admin.
+Access http://localhost:1337/admin and insert the test user credentials:
+Email: test@mail.com
+Password: Test2024
 
 ### Frontend Setup (certilogo-frontend)
-Navigate to the frontend directory (from the project root):
+On a separated Terminal, Navigate to the frontend directory (from the project root):
 
 ### `cd ../certilogo-frontend`
 Install the necessary dependencies:
@@ -38,13 +40,13 @@ Install the necessary dependencies:
 
 Set up your environment variables:
 
-Create a .env.local file in the root of the certilogo-frontend directory. You can use .env.example as a template.
+Create a .env file in the root of the certilogo-frontend directory. You can use .env.example as a template.
 Default port is 1337.
-###### .env.local
+###### .env
 ###### REACT_APP_STRAPI_URL=http://localhost:1337
 Start the React application:
 
-### `npm start`
+### `npm run start`
 The application will be available at http://localhost:3000.
 
 Usage
